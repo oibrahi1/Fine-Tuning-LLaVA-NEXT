@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # setup
 git clone https://github.com/oibrahi1/LLaVa-NEXT-Finetuning.git
 
@@ -26,3 +27,6 @@ Model directory: model
 
 # Compute green score
 python src/evaluate.py
+=======
+# Fine-Tuning-LLaVA-NEXT
+>>>>>>> cd5059eba450752beae1ca968df55404e0e03ca2
