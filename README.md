@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # setup
 git clone https://github.com/oibrahi1/LLaVa-NEXT-Finetuning.git
 
@@ -11,7 +9,7 @@ chmod 777 install.sh
 python src/preprocess_datasets.py --api_key <API_KEY>
 
 # training
-python LLaVa_script.py
+python train.py
 
 Enter your preprocessed data (.json):processed.json
 
