@@ -16,7 +16,11 @@ Set Up a Virtual Environment
 
 # preprocessing
 
+<<<<<<< HEAD
 The reports that are not sepertaed into the four anatomical regions, can be passed to this function to use prompt engineering with gpt-4 to categorize the report to the required parts. You will need an API Key to be passed to the model. 
+=======
+The reports that are not sepertaed into the four anatomical regions, can be passed to this function to use prompt engineering with gpt-4 to categorize the report to the required parts. You will need an API Key to be passed to the model. This function by default takes annotation_quiz_all.json as input unprocessed data, but can be changed to required and it will take any json file to categorize the reports to four regions. 
+>>>>>>> 29ebd3f57702f590687462ce2ceb6c0aefd40a72
 
 **python src/preprocess_datasets.py --api_key <API_KEY>**
 
